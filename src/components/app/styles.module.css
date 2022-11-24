@@ -213,5 +213,11 @@
   .stack{
         flex-direction: column;
   }
+
+  .devices_pc
+  {
+    background-size: 164vw;
+        height: 77vw;
+  }
 }
 
