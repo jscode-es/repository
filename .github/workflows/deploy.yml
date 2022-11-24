@@ -15,5 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: git config --global user.email "sgonzalez@jscode.es"
+      - run: git config --global user.name "Sergio González Garrido"
       - run: npm ci
       - run: npm run deploy
