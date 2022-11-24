@@ -34,7 +34,6 @@
     font-weight: bold;
     font-family: arial;
     font-size: 35px;
-    text-transform: capitalize;
     text-align: center;
     line-height: 90px;
 }
@@ -49,6 +48,7 @@
   background: linear-gradient(to right, #18E8C0 26%, #4DBFE8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
 }
 
 .subtitle{
@@ -62,7 +62,7 @@
 .get_repository{
     display: flex;
     justify-content: center;
-    margin-bottom: 130px
+    margin-bottom: 100px
 }
 
 .get_repository a{
@@ -155,6 +155,22 @@
       background: #222841;
     border-radius: 10px;
     padding: 20px;
+        max-width: 500px;
+}
+
+.tag span
+{
+        text-transform: uppercase;
+    color: #6c72ae;
+    font-size: 15px;
+}
+
+.tag h2
+{
+        font-size: 32px;
+    line-height: 33px;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .stack_tech{
@@ -193,6 +209,15 @@
 }
 
 
+@media only screen and (max-width: 800px) 
+{
+    .title{
+        font-size: 4vw;    
+        line-height: 10vw;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     
   .hideMobile {
@@ -202,12 +227,6 @@
 
   .logo img{
         width: 26vw;
-  }
-
-  .title
-  {
-        line-height: 13vw;
-    font-size: 6vw;
   }
 
   .stack{

@@ -4,10 +4,10 @@ import { GoOctoface } from 'react-icons/go'
 import { FaReact }  from 'react-icons/fa'
 import { GiOctopus } from 'react-icons/gi'
 import { SiJest, SiTypescript, SiExpress } from 'react-icons/si'
-import { BsArrowRightShort }  from 'react-icons/bs'
+import { BsArrowRightShort } from 'react-icons/bs'
+import { ImQuotesLeft, ImQuotesRight} from 'react-icons/im'
 
 export function App() {
-
 
   return (
     <div className={styles.container}>
@@ -16,20 +16,20 @@ export function App() {
 				<img src='./logo.png' />
 			</div>
 			<div className={styles.title}>
-			<h1>Landing page template <strong>repository</strong></h1>
+			<h1>Encuentra todos mis <strong>repositorios</strong></h1>
 			</div>
 			<div className={styles.subtitle}>
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt amet deleniti provident ex necessitatibus saepe id, quam repudiandae sunt odio suscipit animi doloremque error incidunt natus nihil consequatur nulla.</p>
+			<p>Desde aqui podrá observar todo tipo de proyectos que he realizado. Desde programas de escritorio, desarrollo de aplicaciones mobile hibridas, modulos NPM hasta microservicios en la nube.</p>
 			</div>
 			<div className={styles.get_repository}>
-				<a href='https://github.com/jscode-es?tab=repositories'><GoOctoface />Ver todos los repositorios</a>
+				<a href='https://github.com/jscode-es?tab=repositories' target='_blank'><GoOctoface />Ver todos los repositorios</a>
 			</div>
 		</div>
 		<div className={styles.margin_plus}>
 			<div className={styles.block_app}>
 				<div className={styles.block_app_title}>
 					<h4>Desarrollo de aplicaciones web y mobile</h4>
-					<p>Lorem ipsum, dolor sit amet consectetune impedit nulla dolorem dolorum non.</p>
+					<p>A continuación podrá observar ejemplos de NextJS y React Native</p>
 				</div>
 				<div className={styles.devices}>
 					<div className={styles.devices_pc}></div>
@@ -39,14 +39,15 @@ export function App() {
 		</div>
 		<div className={styles.margin}>
 			<div className={styles.info}>
-				<h3>Harum perferendis reiciendis distinctio rapiente, ullam quos! Dicta non sed aspernatur accusantium?</h3>
+				<h3><ImQuotesLeft/> Somos sólo una raza avanzada de monos en un planeta menor de una estrella muy normal. Pero podemos entender el universo <ImQuotesRight/></h3>
+				<h4>Stephen Hawking</h4>
 			</div>
 		</div>
 		<div className={styles.margin_plus}>
 			<div className={styles.stack}>
 				<div>
 					<h2>Stack tecnologico</h2>
-					<p>Apsum dolor sit amet ctis in deserunt quisquam omnis eaque est! Nisi, velit fuga vitae tempore adipisci id!</p>
+					<p>En los últimos 4 años me he especializado en las siguientes framework y librerias</p>
 					<div className={styles.stack_tech}>
 						<div>
 							<ul>
@@ -67,9 +68,9 @@ export function App() {
 				<div>
 					<div className={styles.tag}>
 						<span>Último repositorio</span>
-						<h2>Hic ullam sequi veritatis rem similique quia quas ea ne ration</h2>
-						<p>Voluptatum adipisci animi esse sed accusantium, illum cum inventore deserunt ad similique q.</p>
-						<a href='https://github.com/jscode-es/app-marvel' className={styles.link}>Ir al repositorio <BsArrowRightShort/></a>
+						<h2>Aplicación mobile para Android y iOS</h2>
+						<p>Esta aplicación está basada en una prueba tecnica donde se consumia la API de Marvel. Para validar que todo funcionara correctamente, implementé Testing Library.</p>
+						<a href='https://github.com/jscode-es/app-marvel' target='_blank' className={styles.link}>Ir al repositorio <BsArrowRightShort/></a>
 					</div>
 				</div>
 				
