@@ -46,7 +46,10 @@ export function App() {
 		<div className={styles.margin_plus}>
 			<div className={styles.stack}>
 				<div>
-					<h2>Stack tecnologico</h2>
+					<div className={styles.stack_title}>
+						<h2>Stack tecnologico</h2>
+						<div></div>
+					</div>
 					<p>En los últimos 4 años me he especializado en las siguientes framework y librerias</p>
 					<div className={styles.stack_tech}>
 						<div>

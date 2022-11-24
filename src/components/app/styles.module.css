@@ -53,7 +53,7 @@
 
 .subtitle{
     text-align: center;
-    color: #bbbbbb;
+       color: #8a91a8;
     margin-bottom: 40px;
     font-size: 20px;
     line-height: 30px;
@@ -148,7 +148,24 @@
     flex-direction: row;
     align-items: center;
     gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.stack_title{
+        display: flex;
+    flex-direction: column;
+}
+
+.stack_title h2
+{
+    margin-bottom: 10px;
+}
+
+.stack_title div
+{
+    background: #18e8c0;
+    height: 5px;
+    width: 100px;
 }
 
 .tag{
@@ -224,6 +241,11 @@
     display: none;
   }
   
+  .block_app_title h4,
+  .block_app_title p
+    {
+        text-align: center;
+    }
 
   .logo img{
         width: 26vw;
