@@ -1,0 +1,14 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  gh-pages:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Prepare build
+        run: |
+          echo 'Prepare build'
