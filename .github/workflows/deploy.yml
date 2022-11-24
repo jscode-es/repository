@@ -9,6 +9,11 @@ jobs:
   gh-pages:
     runs-on: ubuntu-22.04
     steps:
-      - name: Prepare build
-        run: |
-          echo 'Prepare build'
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm ci
+      - run: npm deploy
