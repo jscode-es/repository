@@ -123,14 +123,17 @@
 
 .devices_mobile{
     position: absolute;
-    top: -60px;
+    top: -85px;
     background: #ffffff;
     width: 240px;
-    height: 450px;
+    height: 515px;
     border-radius: 20px;
     right: 30px;
     border: solid 10px #262626;
     box-shadow: 1px 1px 8px 4px #0f172a82;
+    background-image: url(../app_mobile.png);
+    background-size: cover;
+
 }
 
 .info{
@@ -157,4 +160,13 @@
 .stack_tech{
     display: flex;
     gap: 20px;
+}
+
+.build{
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5e6c9e;
 }

@@ -29,9 +29,7 @@ export function App() {
 				</div>
 				<div className={styles.devices}>
 					<div className={styles.devices_pc}></div>
-					<div className={styles.devices_mobile}>
-						devices_mobile
-					</div>
+					<div className={styles.devices_mobile}></div>
 				</div>
 			</div>
 		</div>
@@ -60,7 +58,11 @@ export function App() {
 				
 			</div>
 		</div>
-    
+		<div className={styles.margin_plus}>
+			<div className={styles.build}>
+				<small>Este sitio fue desarrollado con Vite + React · JSCode v.1.0.1</small>
+			</div>
+		</div>
     </div>
   )
 }
