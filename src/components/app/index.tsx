@@ -56,7 +56,7 @@ export function App() {
 					<div className={styles.tag}>
 						<h2>Hic ullam sequi veritatis rem similique quia quas ea ne ration</h2>
 						<p>Voluptatum adipisci animi esse sed accusantium, illum cum inventore deserunt ad similique q.</p>
-						<a>Ir al repositorio -></a>
+						<a>Ir al repositorio -&gt;</a>
 					</div>
 				</div>
 				
