@@ -118,17 +118,19 @@
     background: white;
     height: 500px;
     box-shadow: 0px 8px 1px 1px #18e8c0;
+    background-image: url(./app_desktop.png);
 }
 
 .devices_mobile{
     position: absolute;
     top: -60px;
     background: #ffffff;
-    width: 250px;
+    width: 240px;
     height: 450px;
     border-radius: 20px;
     right: 30px;
     border: solid 10px #262626;
+    box-shadow: 1px 1px 8px 4px #0f172a82;
 }
 
 .info{

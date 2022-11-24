@@ -28,9 +28,7 @@ export function App() {
 					<p>Lorem ipsum, dolor sit amet consectetune impedit nulla dolorem dolorum non.</p>
 				</div>
 				<div className={styles.devices}>
-					<div className={styles.devices_pc}>
-						devices_pc
-					</div>
+					<div className={styles.devices_pc}></div>
 					<div className={styles.devices_mobile}>
 						devices_mobile
 					</div>
