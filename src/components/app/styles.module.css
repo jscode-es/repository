@@ -1,0 +1,137 @@
+.container 
+{
+    background-color: #333333;
+     background-color: #11141f;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.margin
+{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+}
+
+.margin_plus{
+   margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.title{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 90px;
+}
+
+.title h1 {
+  margin-bottom: 20px;
+}
+
+.title h1 strong
+{
+  color: #18e8c0;
+  background: linear-gradient(to right, #18E8C0 26%, #4DBFE8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle{
+    text-align: center;
+    color: #bbbbbb;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.get_repository{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.get_repository a{
+    background: #18e8c0;
+    text-decoration: none;
+    outline: none;
+    color: #333333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #5955553d;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .3s;
+}
+
+.get_repository a:hover
+{ 
+    background: #00ffbf;
+    cursor: pointer;
+}
+
+
+.block_app_title
+{
+ 
+}
+
+.block_app_title h4
+{
+    font-weight: 700;
+    color: #b9b9b9;
+    margin-bottom: 3px;
+}
+
+.block_app_title p
+{
+    font-weight: 100;
+    color: #b9b9b9;
+        margin-top: 0;
+}
+
+
+.devices{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.devices_pc
+{
+    border-radius: 20px;
+    background: bisque;
+    height: 500px;
+}
+
+.devices_mobile{
+    position: absolute;
+    top: -60px;
+    background: #b4b0a9;
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    right: 30px;
+}
+
+.info{
+  font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 80px;
+}
