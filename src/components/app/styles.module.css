@@ -62,7 +62,7 @@
 .get_repository{
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 130px
 }
 
 .get_repository a{
@@ -115,18 +115,20 @@
 .devices_pc
 {
     border-radius: 20px;
-    background: bisque;
+    background: white;
     height: 500px;
+    box-shadow: 0px 8px 1px 1px #18e8c0;
 }
 
 .devices_mobile{
     position: absolute;
     top: -60px;
-    background: #b4b0a9;
+    background: #ffffff;
     width: 250px;
     height: 450px;
     border-radius: 20px;
     right: 30px;
+    border: solid 10px #262626;
 }
 
 .info{
@@ -134,4 +136,23 @@
     line-height: 35px;
     text-align: center;
     margin-bottom: 80px;
+}
+
+.stack{
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.tag{
+      background: #222841;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.stack_tech{
+    display: flex;
+    gap: 20px;
 }

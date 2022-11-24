@@ -42,6 +42,26 @@ export function App() {
 				<h3>Harum perferendis reiciendis distinctio rapiente, ullam quos! Dicta non sed aspernatur accusantium?</h3>
 			</div>
 		</div>
+		<div className={styles.margin_plus}>
+			<div className={styles.stack}>
+				<div>
+					<h2>Stack tecnologico</h2>
+					<p>Apsum dolor sit amet ctis in deserunt quisquam omnis eaque est! Nisi, velit fuga vitae tempore adipisci id!</p>
+					<div className={styles.stack_tech}>
+						<div>icon React JS <br/>icon React Native<br/>icon Testing Library</div>
+						<div>icon Jest <br/>icon Typescript<br/>icon Express</div>
+					</div>
+				</div>
+				<div>
+					<div className={styles.tag}>
+						<h2>Hic ullam sequi veritatis rem similique quia quas ea ne ration</h2>
+						<p>Voluptatum adipisci animi esse sed accusantium, illum cum inventore deserunt ad similique q.</p>
+						<a>Ir al repositorio -></a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
     
     </div>
   )
