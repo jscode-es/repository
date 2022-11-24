@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import styles from './styles.module.css'
-import { GoOctoface } from "react-icons/go";
+import { GoOctoface } from 'react-icons/go'
+import { FaReact }  from 'react-icons/fa'
+import { GiOctopus } from 'react-icons/gi'
+import { SiJest, SiTypescript, SiExpress } from 'react-icons/si'
+import { BsArrowRightShort }  from 'react-icons/bs'
 
 export function App() {
 
@@ -8,7 +12,7 @@ export function App() {
   return (
     <div className={styles.container}>
       	<div className={styles.margin}>
-			<div className={styles.logo}>
+			<div className={`${styles.logo}`}>
 				<img src='./logo.png' />
 			</div>
 			<div className={styles.title}>
@@ -29,7 +33,7 @@ export function App() {
 				</div>
 				<div className={styles.devices}>
 					<div className={styles.devices_pc}></div>
-					<div className={styles.devices_mobile}></div>
+					<div className={`${styles.devices_mobile} ${styles.hideMobile}`}></div>
 				</div>
 			</div>
 		</div>
@@ -44,15 +48,28 @@ export function App() {
 					<h2>Stack tecnologico</h2>
 					<p>Apsum dolor sit amet ctis in deserunt quisquam omnis eaque est! Nisi, velit fuga vitae tempore adipisci id!</p>
 					<div className={styles.stack_tech}>
-						<div>icon React JS <br/>icon React Native<br/>icon Testing Library</div>
-						<div>icon Jest <br/>icon Typescript<br/>icon Express</div>
+						<div>
+							<ul>
+								<li><FaReact/> React JS</li>
+								<li><FaReact/> React Native</li>
+								<li><GiOctopus/> Testing Library</li>
+							</ul>
+						</div>
+						<div>	
+							<ul>
+								<li><SiJest/> Jest</li>
+								<li><SiTypescript/> Typescript</li>
+								<li><SiExpress/> Express</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div>
 					<div className={styles.tag}>
+						<span>Último repositorio</span>
 						<h2>Hic ullam sequi veritatis rem similique quia quas ea ne ration</h2>
 						<p>Voluptatum adipisci animi esse sed accusantium, illum cum inventore deserunt ad similique q.</p>
-						<a>Ir al repositorio -&gt;</a>
+						<a href='https://github.com/jscode-es/app-marvel' className={styles.link}>Ir al repositorio <BsArrowRightShort/></a>
 					</div>
 				</div>
 				
