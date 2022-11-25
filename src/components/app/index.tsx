@@ -3,7 +3,17 @@ import styles from './styles.module.css'
 import { GoOctoface } from 'react-icons/go'
 import { FaReact }  from 'react-icons/fa'
 import { GiOctopus } from 'react-icons/gi'
-import { SiJest, SiTypescript, SiExpress } from 'react-icons/si'
+import { 
+	SiJest, 
+	SiTypescript, 
+	SiExpress, 
+	SiMysql, 
+	SiMicrosoftsqlserver,
+	SiOracle,
+	SiRedis,
+	SiMariadb,
+	SiMongodb
+} from 'react-icons/si'
 import { BsArrowRightShort } from 'react-icons/bs'
 import { ImQuotesLeft, ImQuotesRight} from 'react-icons/im'
 
@@ -76,7 +86,41 @@ export function App() {
 						<a href='https://github.com/jscode-es/app-marvel' target='_blank' className={styles.link}>Ir al repositorio <BsArrowRightShort/></a>
 					</div>
 				</div>
-				
+			</div>
+		</div>
+		<div className={styles.margin_plus}>
+			<div className={`${styles.stack} ${styles.stack_reverse}`}>
+				<div>
+					<div className={styles.tag}>
+						<span>Respositorio destacado</span>
+						<h2>Modulo NPM object_mysql</h2>
+						<p>Esta aplicación está basada en una prueba tecnica donde se consumia la API de Marvel. Para validar que todo funcionara correctamente, implementé Testing Library.</p>
+						<a href='https://github.com/jscode-es/app-marvel' target='_blank' className={styles.link}>Ir al repositorio <BsArrowRightShort/></a>
+					</div>
+				</div>
+				<div>
+					<div className={styles.stack_title}>
+						<h2>Gestión de datos</h2>
+						<div></div>
+					</div>
+					<p>En la etapa de desarrollo de software pude admisitrar y crear base de datos de las siguientes tecnologia</p>
+					<div className={styles.stack_tech}>
+						<div>
+							<ul>
+								<li><SiMysql/> Mysql</li>
+								<li><SiMicrosoftsqlserver/> SQL Server</li>
+								<li><SiOracle/> Oracle DB</li>
+							</ul>
+						</div>
+						<div>	
+							<ul>
+								<li><SiRedis/> Redis</li>
+								<li><SiMariadb/> Maria DB</li>
+								<li><SiExpress/> Mongo DB</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div className={styles.margin_plus}>

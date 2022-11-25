@@ -208,10 +208,10 @@
 }
 
 .tag{
-      background: #222841;
+    background: #222841;
     border-radius: 10px;
     padding: 20px;
-        max-width: 500px;
+    width: 400px;
 }
 
 .tag span
@@ -258,11 +258,28 @@
 
 .link
 {
-        display: flex;
+    display: flex;
     align-items: center;
     text-decoration: none;
     font-weight: bold;
     color: #18e8c0;
+}
+
+@media only screen and (max-width: 800px) 
+{
+    .stack{
+        flex-direction: column;
+    }
+
+    .tag{
+        width: auto;
+    }
+
+    .stack_reverse
+    {
+        flex-direction: column-reverse !important;
+    } 
+
 }
 
 
@@ -291,9 +308,7 @@
         width: 26vw;
   }
 
-  .stack{
-        flex-direction: column;
-  }
+  
 
   .devices_pc
   {
