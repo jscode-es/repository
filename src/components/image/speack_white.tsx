@@ -1,4 +1,6 @@
-export const SpeackWhite = (props) => (
+import { SVGProps } from "react";
+
+export const SpeackWhite = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
 	<svg
 		id="Capa_1"
 		data-name="Capa 1"
@@ -21,4 +23,4 @@ export const SpeackWhite = (props) => (
 			transform="translate(-19 -15)"
 		/>
 	</svg>
-)
+);
