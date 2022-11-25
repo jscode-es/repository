@@ -276,6 +276,30 @@
 	width: 300px;
 }
 
+.statistic {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 90px;
+}
+
+.statistic > div {
+	text-align: center;
+}
+
+.statistic > div h1 {
+	font-size: 80px;
+}
+
+.list_tech_speack_me {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	opacity: 0.8;
+}
+
 @media only screen and (max-width: 900px) {
 	.stack {
 		flex-direction: column;

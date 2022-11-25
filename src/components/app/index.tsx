@@ -18,6 +18,8 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import { SpeackWhite } from "../image/speack_white";
 
+import { Statistic } from "../statistic";
+
 export function App() {
 	return (
 		<div className={styles.container}>
@@ -49,6 +51,9 @@ export function App() {
 				</div>
 			</div>
 			<div className={styles.margin_plus}>
+				<Statistic />
+			</div>
+			<div className={styles.margin_plus}>
 				<div className={styles.block_app}>
 					<div className={styles.block_app_title}>
 						<h4>Desarrollo de aplicaciones web y mobile</h4>
@@ -75,6 +80,7 @@ export function App() {
 					<h4>Stephen Hawking</h4>
 				</div>
 			</div>
+
 			<div className={styles.margin_plus}>
 				<div className={styles.stack}>
 					<div>
@@ -211,6 +217,14 @@ export function App() {
 						streaming. Para ofrecer una plataforma más adecuada a
 						las tecnologías actuales.
 					</p>
+					<div className={styles.list_tech_speack_me}>
+						<SiMysql />
+						<SiRedis />
+						<FaReact />
+						<SiJest />
+						<SiTypescript />
+						<SiExpress />
+					</div>
 					<a href="https://speack.me/" target="_blank">
 						Solicitar acceso a la beta
 					</a>
