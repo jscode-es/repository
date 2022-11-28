@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 800px) {
 	.statistic > div h1 {
-		font-size: 10vw;
+		font-size: 12vw;
 	}
 
 	.statistic > div span {
@@ -24,5 +24,9 @@
 
 	.hideMobile {
 		display: none;
+	}
+
+	.statistic > div {
+		line-height: 1.5vw;
 	}
 }
