@@ -1,0 +1,87 @@
+.container {
+	margin-left: 10px;
+	position: relative;
+}
+
+.btn {
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn span {
+	padding: 5px 10px;
+	display: flex;
+	gap: 5px;
+	border-radius: 5px;
+	color: #5e6c9e;
+	transition: 0.2s;
+}
+
+.btn:hover span {
+	background: #222841;
+	color: #96a2cf;
+}
+
+.content {
+	background: #222841;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	width: 550px;
+	border-radius: 5px;
+	text-align: start;
+	transition: 0.3s;
+	transform: translateY(0);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content.show {
+	transform: translateY(-35px);
+	opacity: 1;
+	visibility: visible;
+}
+
+.content .margin {
+	margin: 20px;
+}
+
+.content .margin h4 {
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0;
+	color: #8587d8;
+}
+
+.content .margin p {
+	margin: 0;
+	padding: 0;
+}
+.columns {
+	display: flex;
+	gap: 25px;
+	margin-top: 20px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.list button {
+	text-align: start;
+	padding: 0;
+	outline: none;
+	border: none;
+	background: transparent;
+	color: #6775a8;
+	margin-bottom: 5px;
+}
+
+.list button:hover {
+	cursor: pointer;
+	color: #94a4df;
+}

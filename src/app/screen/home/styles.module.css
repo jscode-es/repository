@@ -1,3 +1,6 @@
+.show {
+}
+
 .container {
 	background-color: #333333;
 	background-color: #11141f;
@@ -79,7 +82,7 @@
 }
 
 .get_repository a::before {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
